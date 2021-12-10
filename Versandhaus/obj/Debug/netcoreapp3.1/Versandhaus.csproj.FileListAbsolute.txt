@@ -1,0 +1,13 @@
+E:\c#\Versandhaus\Versandhaus\bin\Debug\netcoreapp3.1\Versandhaus.exe
+E:\c#\Versandhaus\Versandhaus\bin\Debug\netcoreapp3.1\Versandhaus.deps.json
+E:\c#\Versandhaus\Versandhaus\bin\Debug\netcoreapp3.1\Versandhaus.runtimeconfig.json
+E:\c#\Versandhaus\Versandhaus\bin\Debug\netcoreapp3.1\Versandhaus.runtimeconfig.dev.json
+E:\c#\Versandhaus\Versandhaus\bin\Debug\netcoreapp3.1\Versandhaus.dll
+E:\c#\Versandhaus\Versandhaus\bin\Debug\netcoreapp3.1\Versandhaus.pdb
+E:\c#\Versandhaus\Versandhaus\obj\Debug\netcoreapp3.1\Versandhaus.csprojAssemblyReference.cache
+E:\c#\Versandhaus\Versandhaus\obj\Debug\netcoreapp3.1\Versandhaus.AssemblyInfoInputs.cache
+E:\c#\Versandhaus\Versandhaus\obj\Debug\netcoreapp3.1\Versandhaus.AssemblyInfo.cs
+E:\c#\Versandhaus\Versandhaus\obj\Debug\netcoreapp3.1\Versandhaus.csproj.CoreCompileInputs.cache
+E:\c#\Versandhaus\Versandhaus\obj\Debug\netcoreapp3.1\Versandhaus.dll
+E:\c#\Versandhaus\Versandhaus\obj\Debug\netcoreapp3.1\Versandhaus.pdb
+E:\c#\Versandhaus\Versandhaus\obj\Debug\netcoreapp3.1\Versandhaus.genruntimeconfig.cache
