@@ -7,8 +7,8 @@ namespace Versandhaus
         static void Main(string[] args)
         {
             
-            double Gesamtkosten; // nur die Kosten eines Artikels mit der Anzahl nicht des Gesamt
-            double EinkaufsWagenPreis = 0;
+            double Gesamtkosten; // nur die Kosten eines Artikels mit der Anzahl 
+            double EinkaufsWagenPreis = 0; //Kompletter Preis am Ende
             int Kaufmenge;
             double Versandkosten; // zuerst war hier 3.5 aber nun unten deklariert da es dann besser verständllich ist 
             ConsoleKeyInfo weitere;
