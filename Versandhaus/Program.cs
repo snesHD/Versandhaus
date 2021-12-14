@@ -29,7 +29,7 @@ namespace Versandhaus
                 Console.Clear();
             } while (weitere.Key == ConsoleKey.Y);
 
-            if(Gesamtkosten > 20)
+            if(EinkaufsWagenPreis >= 20)
             {
                 Versandkosten = 0;
                 // Nicht nötig Gesamtkosten nochmal neu zu Deklarieren da sich am Wert nichts ändert
@@ -38,7 +38,7 @@ namespace Versandhaus
             else
             {
                 Versandkosten = 3.5;
-                Gesamtkosten = Gesamtkosten + Versandkosten;
+                EinkaufsWagenPreis = EinkaufsWagenPreis + Versandkosten;
                 Console.WriteLine("Ihre Gesamtkosten betragen " + Math.Round(EinkaufsWagenPreis,2) + " Euro inklusive Versand");
             }
             

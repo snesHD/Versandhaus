@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nf/0KG6YBDu2nKUYGiJlQwpcQjGk8rxlRYUjtDKuRNIlJzRT3/zmPNtcoNT5pxV5IC1Jfo0cXMc9QqFKiAhMcg==",
+  "dgSpecHash": "P0r67KhYRpazSnnJ+70tgYUql7GvOEqXcbPt9Bmcwg2F/dvea1OVCgLPlkmoLPTEubv3yFMAhXH81HvxkDIXKw==",
   "success": true,
-  "projectFilePath": "E:\\c#\\Versandhaus\\Versandhaus\\Versandhaus.csproj",
+  "projectFilePath": "E:\\github\\Versandhaus\\Versandhaus\\Versandhaus.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

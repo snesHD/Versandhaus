@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\c#\\Versandhaus\\Versandhaus\\Versandhaus.csproj": {}
+    "E:\\github\\Versandhaus\\Versandhaus\\Versandhaus.csproj": {}
   },
   "projects": {
-    "E:\\c#\\Versandhaus\\Versandhaus\\Versandhaus.csproj": {
+    "E:\\github\\Versandhaus\\Versandhaus\\Versandhaus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\c#\\Versandhaus\\Versandhaus\\Versandhaus.csproj",
+        "projectUniqueName": "E:\\github\\Versandhaus\\Versandhaus\\Versandhaus.csproj",
         "projectName": "Versandhaus",
-        "projectPath": "E:\\c#\\Versandhaus\\Versandhaus\\Versandhaus.csproj",
+        "projectPath": "E:\\github\\Versandhaus\\Versandhaus\\Versandhaus.csproj",
         "packagesPath": "C:\\Users\\ibo14\\.nuget\\packages\\",
-        "outputPath": "E:\\c#\\Versandhaus\\Versandhaus\\obj\\",
+        "outputPath": "E:\\github\\Versandhaus\\Versandhaus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ibo14\\AppData\\Roaming\\NuGet\\NuGet.Config",
