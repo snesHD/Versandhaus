@@ -9,7 +9,6 @@ namespace Versandhaus
             
             double Gesamtkosten; // nur die Kosten eines Artikels mit der Anzahl 
             double EinkaufsWagenPreis = 0; //Kompletter Preis am Ende
-            int Kaufmenge;
             double Versandkosten; // zuerst war hier 3.5 aber nun unten deklariert da es dann besser verständllich ist 
             string Warenkorb = "";
             string ArtikelName = "Artikel";
@@ -22,7 +21,7 @@ namespace Versandhaus
                 double ArtikelPreis = Convert.ToDouble(Console.ReadLine());
 
                 Console.WriteLine("\nGeben Sie nun die Stückzahl ein die Sie haben möchten: ");
-                Kaufmenge = Convert.ToInt32(Console.ReadLine());
+                int Kaufmenge = Convert.ToInt32(Console.ReadLine());
 
                 Gesamtkosten = Math.Round(ArtikelPreis * Kaufmenge,2);
                 EinkaufsWagenPreis = Math.Round(EinkaufsWagenPreis + Gesamtkosten,2);
