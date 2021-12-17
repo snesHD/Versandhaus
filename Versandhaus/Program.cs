@@ -11,6 +11,9 @@ namespace Versandhaus
             double EinkaufsWagenPreis = 0; //Kompletter Preis am Ende
             int Kaufmenge;
             double Versandkosten; // zuerst war hier 3.5 aber nun unten deklariert da es dann besser verständllich ist 
+            string Warenkorb = "";
+            string ArtikelName = "Artikel";
+            int i = 1;
             ConsoleKeyInfo weitere;
 
             do
@@ -23,25 +26,24 @@ namespace Versandhaus
 
                 Gesamtkosten = Math.Round(ArtikelPreis * Kaufmenge,2);
                 EinkaufsWagenPreis = Math.Round(EinkaufsWagenPreis + Gesamtkosten,2);
-
+                Warenkorb += String.Format("{0}x {1}; Stückpreis: {2}; Gesamtpreis: {3}\n", Kaufmenge, ArtikelName+i++, ArtikelPreis, Gesamtkosten);
                 Console.WriteLine("Möchten Sie noch weitere Artikel hinzufügen?:\t[Y/N]");
                 weitere = Console.ReadKey();
                 Console.Clear();
             } while (weitere.Key == ConsoleKey.Y);
 
+            Console.WriteLine(Warenkorb);
+
             if(EinkaufsWagenPreis >= 20)
             {
                 Versandkosten = 0;
-                // Nicht nötig Gesamtkosten nochmal neu zu Deklarieren da sich am Wert nichts ändert
-                Console.WriteLine("Ihre Gesamtkosten betragen " + Math.Round(EinkaufsWagenPreis,2) + " Euro inklusive Versand");
             }
             else
             {
-                Versandkosten = 3.5;
-                EinkaufsWagenPreis = EinkaufsWagenPreis + Versandkosten;
-                Console.WriteLine("Ihre Gesamtkosten betragen " + Math.Round(EinkaufsWagenPreis,2) + " Euro inklusive Versand");
+                Versandkosten = 3.5;    
             }
-            
+            EinkaufsWagenPreis = EinkaufsWagenPreis + Versandkosten;
+            Console.WriteLine("Ihre Gesamtkosten betragen " + Math.Round(EinkaufsWagenPreis, 2) + " Euro inklusive Versand");
         }
     }
 }
